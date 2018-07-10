@@ -30,7 +30,6 @@ import com.luck.picture.lib.tools.DateUtils;
 import com.luck.picture.lib.tools.DoubleUtils;
 import com.luck.picture.lib.tools.PictureFileUtils;
 import com.yalantis.ucrop.UCrop;
-import com.yalantis.ucrop.UCropMulti;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -292,9 +291,9 @@ public class PictureBaseActivity extends FragmentActivity {
         options.setCircleDimmedLayer(config.circleDimmedLayer);
         options.setShowCropFrame(config.showCropFrame);
         options.setShowCropGrid(config.showCropGrid);
-        options.setDragFrameEnabled(config.isDragFrame);
-        options.setScaleEnabled(config.scaleEnabled);
-        options.setRotateEnabled(config.rotateEnabled);
+//        options.setDragFrameEnabled(config.isDragFrame);
+//        options.setScaleEnabled(config.scaleEnabled);
+//        options.setRotateEnabled(config.rotateEnabled);
         options.setCompressionQuality(config.cropCompressQuality);
         options.setHideBottomControls(config.hideBottomControls);
         options.setFreeStyleCropEnabled(config.freeStyleCropEnabled);
